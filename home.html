@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Azarovs</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="py-20 top-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo-azarovs.png" alt="Azarovs">
+          </a>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="company-info">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h4>Италия:</h4>
+                  </div>
+                  <div class="col-md-9">
+                    Corso Imperatrice, 8 - 18038 Sanremo (IM)<br>
+                    <b>Phone:</b> +390184639032<br>
+                    <b>E-mail:</b> info@azarovs.ru
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="nav-item dropdown language-toggle">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  RU
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">EN</a>
+                  <a class="dropdown-item" href="#">ES</a>
+                  <a class="dropdown-item" href="#">FR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="sticky-top fixed-top navbar navbar-expand-lg navbar-dark main-top-navbar">
+    <div class="container-fluid">
+
+
+      <a href="#" class="mobile-sticky-logo">
+        <img src="img/logo-azarovs.png" alt="Azarovs">
+      </a>
+
+
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">   
+            <i class="fa fa-navicon"></i>
+        </span>
+      </button>
+      <div class="navbar-collapse collapse main-menu" id="navbarResponsive" style="">
+        <ul class="navbar-nav nav-pills nav-justified">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">У моря</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">В горах</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Продажа</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Аренда</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Компания</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Полезное</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="header-banner">
+    <div class="header-banner__image position-relative home-slider">
+      <div>
+        <img src="img/azarovs-header-image.jpg" alt="Image">
+        <div class="header-banner__title">
+          <h1>Элитные аппартаменты<br>в Монако</h1>
+          <p class="header-title-price">€ 15.500.000</p>
+        </div>
+      </div>
+      <div>
+        <img src="img/azarovs-header-image.jpg" alt="Image">
+        <div class="header-banner__title">
+          <h1>Элитные аппартаменты<br>в Италии</h1>
+          <p class="header-title-price">€ 12.300.000</p>
+        </div>
+      </div>
+    </div>
+    <div class="search-box container">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#menu1">Найти свою недвижимость</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu2">ПОИСК ПО НОМЕРУ ЛОТА</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="menu1">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="sell_rent">Продажа/Aренда:</label>
+                  <select class="form-control" id="sell_rent">
+                    <option>Продажа</option>
+                    <option>Аренда</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="cauntry">Страна:</label>
+                  <select class="form-control" id="cauntry">
+                    <option>Не важно</option>
+                    <option>Россия</option>
+                    <option>Италия</option>
+                    <option>Франция</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="type">Тип недвижимости:</label>
+                  <select class="form-control" id="type">
+                    <option>Не важно</option>
+                    <option>Жилье</option>
+                    <option>Нежилые помещения</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="region">Регион:</label>
+                  <select class="form-control" id="region">
+                    <option>Не важно</option>
+                    <option>Регион 1</option>
+                    <option>Регион 2</option>
+                    <option>Регион 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="city">Город:</label>
+                  <select class="form-control" id="city">
+                    <option>Не важно</option>
+                    <option>Город 1</option>
+                    <option>Город 2</option>
+                    <option>Город 3</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <label for="min-price">Мин.цена:</label>
+                      <input type="number" class="form-control" id="min-price">
+                    </div>
+                    <div class="col-sm-6">
+                      <label for="max-price">Макс.цена:</label>
+                      <input type="number" class="form-control" id="max-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="city">Комнаты:</label>
+                  <select class="form-control" id="city">
+                    <option>Не важно</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-submit">Поиск</button>
+                </div>
+              </div>
+            </div>
+            <a class="adv-search-collapse" data-toggle="collapse" href="#collapseAdvSerach" aria-expanded="true" aria-controls="collapseAdvSerach">Расширенный поиск <i class="fa" aria-hidden="true"></i></a>
+            <div class="row collapse show" id="collapseAdvSerach">
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="menu2">
+          <form class="number-lot-search" action="">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Номер Лота" required>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-submit">Поиск</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="category-section">
+    <div class="container">
+      <h2 class="title-section title-section-lines">Категории</h2>
+      <div class="row category-box-area">
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-1.jpg" alt="CatImage">
+              <h4>Элитная, эксклюзивная</h4>
+              <p>Купить элитную недвижимость в Италии - Лазурный берег Франции Элитная недвижимость в Италии и Лазурном...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-2.jpg" alt="CatImage">
+            <h4>Дома, Виллы</h4>
+            <p>Дома и виллы в Италии и на Лазурном Берегу Франции Один из самых красивых регионов Италии –...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-3.jpg" alt="CatImage">
+            <h4>Квартиры, Апартаменты</h4>
+            <p>Квартиры и апартаменты в Италии на Лазурном Берегу Франции Купить квартиру или апартаменты во Франции...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-4.jpg" alt="CatImage">
+            <h4>Готовый бизнес</h4>
+            <p>Продажа бизнеса в Италии Studio «Immobiliare Russo» предлагает Вашему вниманию раздел по...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-5.jpg" alt="CatImage">
+            <h4>Новостройки, новое жилье</h4>
+            <p>Новостройки и новое жилье в Италии и Франции Высокий спрос на недвижимость в популярных курортных...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-6.jpg" alt="CatImage">
+            <h4>Земля, участки</h4>
+            <p>Земля и земельный участок в Италии и Франции Лазурный Берег Франции, плавно переходящий в Лигурийское...</p>
+          </a>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </section>
+  <section class="description-section container">
+    <div class="row">
+      <div class="col-md-5">
+        <img class="img-fluid " src="img/descr-image.jpg" alt="Image">
+      </div>
+      <div class="col-md-7 description-text">
+        <h2 class="my-5 font-weight-bold text-uppercase">Недвижимость в Италии</h2>
+        <p class="mb-3">Купить виллу, дом или апартаменты недорого на берегу моря или на солнечном побережье. Кто не хотел бы жить в Италии! Страна, открывшая всему миру рецепт вкусной пиццы, спагетти и невероятный автомобиль Alfa Romeo; уникальная культура и замечательный менталитет проживающих порадует любого приезжего! Пребывая в любом городе Италии, получаешь по-настоящему эстетическое наслаждение. На нашем сайте azarovs.ru вы можете купить <a href="#">недвижимость в Италии</a> без накрутки цен от посредников. Дешево виллы, дома и квартиры от хозяев недвижимости. Мы напрямую работаем с владельцами вилл, домов и квартир, поэтому и ценовая политика на порядок ниже, чем у конкурентов.</p>
+        <p class="mb-3">Наша задача - сделать покупку квартиры или дома максимально выгодной для вас.</p>
+        <p class="mb-3">Обращайтесь в "AzarovS" и мы подберем для Вас самые выгодные предложения по доступной цене.  Архитектура в Италии уникальная и ее оценят даже самые ярые критики, ведь это – часть высокой культуры! Обращайтесь к нам, и вы недорого сможете <a href="#">купить недвижимость в Италии!</a></p>
+        <p class="mb-3">Мы поможем Вам выбрать недвижимость по ценам, которые даже ниже, чем в России! Все это возможно, ведь экономика Италии на достаточно высоком уровне, в связи с чем стоимость на дома очень приятная. Для тех, кто ищет уютное и комфортное жильё – недвижимость в Италии будет идеальным выбором! Только взгляните на фотографии строений, людей и природы – там прекрасно абсолютно все! Хотите стать частичкой Италии – купите недвижимость и начните там безмятежно жить.</p>
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid">
+    <hr>
+  </div>
+  <section class="filter-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 filter-container">
+          <div class="filter-block">
+            <a class="filter-caret-collapse" data-toggle="collapse" href="#italy" aria-expanded="true">Италия <i class="fa" aria-hidden="true"></i></a>
+            <div class="collapse show" id="italy">
+              <div>
+                <a class="filter-inner-collapse collapsed" data-toggle="collapse" href="#liguria" aria-expanded="true" ><i class="fa" aria-hidden="true"></i> Лигурия </a>
+                <div class="collapse filter-inner-content" id="liguria">
+                  <a href="#">Лигурия 1</a>
+                  <a href="#">Лигурия 2</a>
+                  <a href="#">Лигурия 3</a>
+                </div>
+              </div>
+              <div>
+                <a class="filter-inner-collapse" data-toggle="collapse" href="#sardinia" aria-expanded="true"><i class="fa" aria-hidden="true"></i>Сардиния</a>
+                <div class="collapse show filter-inner-content" id="sardinia">
+                  <a href="#">Альгеро</a>
+                  <a href="#">Ла Калетта</a>
+                  <a href="#">Порто-Черво</a>
+                  <a href="#">Синискола</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filter-block">
+            <a class="filter-caret-collapse" data-toggle="collapse" href="#france" aria-expanded="true">Франция <i class="fa" aria-hidden="true"></i></a>
+            <div id="france" class="collapse show">
+              <div>
+                <a class="filter-inner-collapse" data-toggle="collapse" href="#lazurniy" aria-expanded="true"><i class="fa" aria-hidden="true"></i>Лазурный Берег</a>
+                <div class="collapse show filter-inner-content" id="lazurniy">
+                  <a href="#">Антиб</a>
+                  <a href="#">Больё-сюр-Мер</a>
+                  <a href="#">Босолей</a>
+                  <a href="#">Вильнев-Лубе</a>
+                  <a href="#">Вильфранш-сюр-Мер</a>
+                  <a href="#">Жуан-ле-Пен</a>
+                  <a href="#">Канны</a>
+                  <a href="#">Кань-сюр-Мер</a>
+                  <a href="#">Кап-Дай</a>
+                  <a href="#">Ла-Тюрби</a>
+                  <a href="#">Ментон</a>
+                  <a href="#">Ницца</a>
+                  <a href="#">Рокебрюн-Кап-Мартен</a>
+                  <a href="#">Сен-Жан-Кап-Ферра</a>
+                  <a href="#">Сен-Тропе</a>
+                  <a href="#">Теуль-Сюр-Мер</a>
+                  <a href="#">Эз</a>
+                  <a href="#">Эз-сюр-Мер</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filter-block">
+            <a class="filter-caret-collapse" data-toggle="collapse" href="#monako" aria-expanded="true">Монако <i class="fa" aria-hidden="true"></i></a>
+            <div id="monako" class="collapse show">
+              <div>
+                <a class="filter-inner-collapse" data-toggle="collapse" href="#mon" aria-expanded="true"><i class="fa" aria-hidden="true"></i>Монако</a>
+                <div class="collapse show filter-inner-content" id="mon">
+                  <a href="#">Монако</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="filter-block">
+            <a class="filter-caret-collapse" data-toggle="collapse" href="#austria" aria-expanded="true">Австрия <i class="fa" aria-hidden="true"></i></a>
+            <div id="austria" class="collapse show">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-10 box-apartment-area">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-1.jpg" alt="">
+                  <h5 class="card-price">€ 650.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Квартира с садом у моря в Италии</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3772
+                  </h4>
+                  <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>100 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>4</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-2.jpg" alt="">
+                  <h5 class="card-price">€ 990.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Вилла на холмах в Понтедассио</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3768
+                  </h4>
+                  <p class="card-text">Вилла с бассейном и видом на горы в Понтедассио Вилла расположена на холмах в Понтедассио. В уединенном месте в 7 км от моря. Состоит из главной виллы, построенной.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>502 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-3.jpg" alt="">
+                  <h5 class="card-price">€ 920.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Вилла в Вентимилья с бассейном</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3767
+                  </h4>
+                  <p class="card-text">Вилла с садом и бассейном в Вентимилья Продается вилла в провансальском стиле, окруженная ухоженным садом с бассейном, в Вентимилья. Коммерческая площадь 460 кв..</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>460 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-car.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-1.jpg" alt="">
+                  <h5 class="card-price">€ 650.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Квартира с садом у моря в Италии</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3772
+                  </h4>
+                  <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>100 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>4</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-2.jpg" alt="">
+                  <h5 class="card-price">€ 990.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Вилла на холмах в Понтедассио</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3768
+                  </h4>
+                  <p class="card-text">Вилла с бассейном и видом на горы в Понтедассио Вилла расположена на холмах в Понтедассио. В уединенном месте в 7 км от моря. Состоит из главной виллы, построенной.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>502 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-3.jpg" alt="">
+                  <h5 class="card-price">€ 920.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Вилла в Вентимилья с бассейном</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3767
+                  </h4>
+                  <p class="card-text">Вилла с садом и бассейном в Вентимилья Продается вилла в провансальском стиле, окруженная ухоженным садом с бассейном, в Вентимилья. Коммерческая площадь 460 кв..</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>460 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-car.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-1.jpg" alt="">
+                  <h5 class="card-price">€ 650.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Квартира с садом у моря в Италии</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3772
+                  </h4>
+                  <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>100 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>4</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-2.jpg" alt="">
+                  <h5 class="card-price">€ 990.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Вилла на холмах в Понтедассио</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3768
+                  </h4>
+                  <p class="card-text">Вилла с бассейном и видом на горы в Понтедассио Вилла расположена на холмах в Понтедассио. В уединенном месте в 7 км от моря. Состоит из главной виллы, построенной.</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>502 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card box-apartment">
+                <a class="card-image" href="#">
+                  <span class="new-badge">Новое</span>
+                  <img class="card-img-top" src="img/ap-3.jpg" alt="">
+                  <h5 class="card-price">€ 920.000</h5>
+                </a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Вилла в Вентимилья с бассейном</a><br>
+                  </h4>
+                  <h4 class="lot">
+                    Продажа: Лот #3767
+                  </h4>
+                  <p class="card-text">Вилла с садом и бассейном в Вентимилья Продается вилла в провансальском стиле, окруженная ухоженным садом с бассейном, в Вентимилья. Коммерческая площадь 460 кв..</p>
+                </div>
+                <div class="card-footer">
+                  <div>
+                    <span>
+                      <img src="img/icon-size.png" alt="">
+                    </span>
+                    <span>460 m<sup>2</sup></span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bed.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-bath.png" alt="">
+                    </span>
+                    <span>3</span>
+                  </div>
+                  <div>
+                    <span>
+                      <img src="img/icon-car.png" alt="">
+                    </span>
+                    <span>2</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="pagination">
+            <li class="page-item "><a class="page-link" href="#"><i class="fa fa-chevron-left"></i></a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">87</a></li>
+            <li class="page-item"><a class="page-link" href="#"><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <section class="container useful-section">
+    <h2 class="mb-5 title-section title-section-lines__usefulinfo">Полезная информация</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <div class="card useful-box">
+          <a href="#"><img class="card-img-top" src="img/useful-1.jpg" alt="Image"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">2016 год, Недвижимость пора покупать сейчас</a>
+            </h4>
+            <p class="card-text">2016 год – лучшее время для покупки недвижимости в Италии и на Лазурном берегу, побережье Франции...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card useful-box">
+          <a href="#"><img class="card-img-top" src="img/useful-2.jpg" alt="Image"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Процесс покупки недвижимости в Италии 2016</a>
+            </h4>
+            <p class="card-text">Как происходит купля-продажа недвижимости в Италии 2016 Доброго дня наши уважаемые читатели! ...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card useful-box">
+          <a href="#"><img class="card-img-top" src="img/useful-3.jpg" alt="Image"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Pемонт дома или квартиры в Италии</a>
+            </h4>
+            <p class="card-text">Ремонтные работы в Италии, строительство дома, виллы, квартиры и апартаментов Приветствую друзья вас...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="card useful-box">
+          <a href="#"><img class="card-img-top" src="img/useful-4.jpg" alt="Image"></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Всё о покупке недвижимости в Италии</a>
+            </h4>
+            <p class="card-text">Все по покупке недвижимости в Италии - как не попасть к мошенникам и минимизировать риски. 1. Возникла...</p>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary center">Все статьи</button>
+    </div>
+  </section>
+  <footer class="bg-dark">
+    <div class="container-fluid">
+      <ul class="mx-auto nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link" href="#">У моря</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">В горах</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Продажа</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Аренда</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Компания</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Полезное</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Карта сайта</a>
+        </li>
+      </ul>
+      <p class="my-5 text-center text-white">Copyright &copy; 2019 Studio Immobiliare Russo s.r.l. <span class="mx-3">|</span> P. IVA e isc.reg.imprese n: 01600980088 <span class="mx-3">|</span> Cap. Soc. € 10.0000 i.v.</p>
+      <div class="soc-links text-center text-white">
+        <a href="#">
+          <i class="fa fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.home-slider').slick({
+        autoplay: true,
+        lazyLoad: true,
+        pauseOnHover: false,
+        autoplaySpeed: 4000,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        arrows: false,
+        cssEase: 'linear'
+      });
+    });
+  </script>
+</body>
+
+</html>

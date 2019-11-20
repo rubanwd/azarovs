@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Azarovs - subpage</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="py-20 top-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo-azarovs.png" alt="Azarovs">
+          </a>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="company-info">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h4>Италия:</h4>
+                  </div>
+                  <div class="col-md-9">
+                    Corso Imperatrice, 8 - 18038 Sanremo (IM)<br>
+                    <b>Phone:</b> +390184639032<br>
+                    <b>E-mail:</b> info@azarovs.ru
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="nav-item dropdown language-toggle">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  RU
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">EN</a>
+                  <a class="dropdown-item" href="#">ES</a>
+                  <a class="dropdown-item" href="#">FR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="sticky-top fixed-top navbar navbar-expand-lg navbar-dark main-top-navbar">
+    <div class="container-fluid">
+      <a href="#" class="mobile-sticky-logo">
+        <img src="img/logo-azarovs.png" alt="Azarovs">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">   
+            <i class="fa fa-navicon"></i>
+        </span>
+      </button>
+      <div class="navbar-collapse collapse main-menu" id="navbarResponsive" style="">
+        <ul class="navbar-nav nav-pills nav-justified">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">У моря</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">В горах</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Продажа</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Аренда</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Компания</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Полезное</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="header-banner">
+    <div class="search-box container search-box-subpage">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#menu1">Найти свою недвижимость</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#menu2">ПОИСК ПО НОМЕРУ ЛОТА</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="menu1">
+          <form action="">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="sell_rent">Продажа/Aренда:</label>
+                  <select class="form-control" id="sell_rent">
+                    <option>Продажа</option>
+                    <option>Аренда</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="cauntry">Страна:</label>
+                  <select class="form-control" id="cauntry">
+                    <option>Не важно</option>
+                    <option>Россия</option>
+                    <option>Италия</option>
+                    <option>Франция</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="type">Тип недвижимости:</label>
+                  <select class="form-control" id="type">
+                    <option>Не важно</option>
+                    <option>Жилье</option>
+                    <option>Нежилые помещения</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="region">Регион:</label>
+                  <select class="form-control" id="region">
+                    <option>Не важно</option>
+                    <option>Регион 1</option>
+                    <option>Регион 2</option>
+                    <option>Регион 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="city">Город:</label>
+                  <select class="form-control" id="city">
+                    <option>Не важно</option>
+                    <option>Город 1</option>
+                    <option>Город 2</option>
+                    <option>Город 3</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <label for="min-price">Мин.цена:</label>
+                      <input type="number" class="form-control" id="min-price">
+                    </div>
+                    <div class="col-sm-6">
+                      <label for="max-price">Макс.цена:</label>
+                      <input type="number" class="form-control" id="max-price">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="form-group">
+                  <label for="city">Комнаты:</label>
+                  <select class="form-control" id="city">
+                    <option>Не важно</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-submit">Поиск</button>
+                </div>
+              </div>
+            </div>
+            <a class="adv-search-collapse" data-toggle="collapse" href="#collapseAdvSerach" aria-expanded="true" aria-controls="collapseAdvSerach">Расширенный поиск <i class="fa" aria-hidden="true"></i></a>
+            <div class="row collapse show" id="collapseAdvSerach">
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input" value="">Произвольный текст
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane fade" id="menu2">
+
+          <form class="number-lot-search" action="">
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Номер Лота" required>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-submit">Поиск</button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="container apartment-info">
+    <h2>Элитная вилла в Форте-дей-Марми</h2>
+    <div class="apartment-info__pricebar">
+      <div>€ 650.000</div>
+      <div>
+        <span>
+          <img src="img/icon-size.png" alt="">
+        </span>
+        <span>460 m<sup>2</sup></span>
+      </div>
+      <div>
+        <span>
+          <img src="img/icon-bed.png" alt="">
+        </span>
+        <span>3</span>
+      </div>
+      <div>
+        <span>
+          <img src="img/icon-bath.png" alt="">
+        </span>
+        <span>3</span>
+      </div>
+      <div>
+        <span>
+          <img src="img/icon-car.png" alt="">
+        </span>
+        <span>2</span>
+      </div>
+      <div>
+        <span>
+          <img src="img/icon-print.png" alt="">
+        </span>
+        <span>Версия для печати</span>
+      </div>
+    </div>
+    <div class="apartment-info__visual-info">
+
+
+      <div class="row">
+        
+        <div class="col-lg-7">
+
+          <div class="single-slider">
+            <div class="an-slider-for">
+              <a href="img/a-1.jpg" data-fancybox="gallery" data-caption="Title 1" rel="Sold" class="fancybox">
+                  <img src="img/a-1.jpg" alt="">
+              </a>
+              <a href="img/a-2.jpg" data-fancybox="gallery" data-caption="Title 2" rel="Sold" class="fancybox">
+                  <img src="img/a-2.jpg"  alt="">
+              </a>
+              <a href="img/a-3.jpg" data-fancybox="gallery" data-caption="Title 3" rel="Sold" class="fancybox">
+                  <img src="img/a-3.jpg" alt="">
+              </a>
+              <a href="img/a-4.jpg" data-fancybox="gallery" data-caption="Title 4" rel="Sold" class="fancybox">
+                  <img src="img/a-4.jpg"  alt="">
+              </a>
+              <a href="img/a-5.jpg" data-fancybox="gallery" data-caption="Title 5" rel="Sold" class="fancybox">
+                  <img src="img/a-5.jpg"  alt="">
+              </a>
+              <a href="img/a-6.jpg" data-fancybox="gallery" data-caption="Title 6" rel="Sold" class="fancybox">
+                  <img src="img/a-6.jpg"  alt="">
+              </a>
+              <a href="img/a-6.jpg" data-fancybox="gallery" data-caption="Title 6" rel="Sold" class="fancybox">
+                  <img src="img/a-6.jpg"  alt="">
+              </a>
+              <a href="img/a-6.jpg" data-fancybox="gallery" data-caption="Title 6" rel="Sold" class="fancybox">
+                  <img src="img/a-6.jpg"  alt="">
+              </a>
+            </div>
+            <div class="an-slider-nav">
+              <div class="single-slider__item">
+                  <img src="img/a-1.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-2.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-3.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-4.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-5.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-6.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-6.jpg" alt="">
+              </div>
+              <div class="single-slider__item">
+                  <img src="img/a-6.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="apartment-info__visual-info--video mb-4">
+            <img class="video-thumb" src="img/video-thumb.jpg" alt="thumb">
+            <a class="video-play" href="#">
+              <img src="img/play.png" alt="play">
+            </a>
+          </div>
+          <div class="apartment-info__visual-info--map">
+            <img src="img/map.jpg" alt="map">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="apartment-info__description mb-5">
+      <div class="row">
+        <div class="col-lg-8">
+          <h3 class="mb-4">Описание:</h3>
+          <p>Продаётся двухэтажная вилла в Форте-дей-Марми площадью 200 кв. м., расположенная в нескольких шагах от пляжа, ресторанов, ночных клубов и торговых улиц.</p>
+          <p>На 1 этаже расположены просторная светлая гостиная с выходом на открытый внутренний дворик, столовая, кухня, ванная комната + террасы.</p>
+          <p>На 2 этаже расположены 4 спальни и 3 ванные комнаты. </p>
+          <p>Эта роскошная вилла расположена на участке площадью 2000 кв. м. и окружена ландшафтным садом с соснами и пальмами, что придает вилле дополнительное очарование. Автостоянка.</p>
+        </div>
+        <div class="col-lg-4">
+          <img src="img/class.png" alt="Class">
+        </div>
+        
+      </div>
+      
+    </div>
+
+    <div class="apartment-info__characteristics mb-5">
+      <h3>Основные характеристики:</h3>
+      <ul >
+        <li>
+              <span>Дата объявления:</span>
+              <span>01/06/2019</span>
+        </li>
+        <li>
+              <span>Продажа/Аренда:</span>
+              <span>Продажа</span>
+        </li>
+        <li>
+              <span>Город:</span>
+              <span>Форте-дей-Марми</span>
+        </li>
+        <li>
+              <span>Лот:</span>
+              <span>#3746</span>
+        </li>
+        <li>
+              <span>Площадь:</span>
+              <span>200 м<sup>2</sup></span>
+        </li>
+        <li>
+              <span>Земля, м2:</span>
+              <span>2000</span>
+        </li>
+        <li>
+              <span>Комнаты:</span>
+              <span>5</span>
+        </li>
+        <li>
+              <span>Ванные:</span>
+              <span>3</span>
+        </li>
+        <li>
+              <span>Класс энергетики:</span>
+              <span>C</span>
+        </li>
+        <li>
+              <span>Энергопотребление:</span>
+              <span>115,00 kWh/m<sup>2</sup>a</span>
+        </li>
+        <li>
+              <span>Комиссия агентства:</span>
+              <span>Оплачивает продавец</span>
+        </li>
+        <li>
+              <span>Цена:</span>
+              <span>€ 650.000</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="apartment-info__details">
+
+      <h3>Детали:</h3>
+      <ul>
+        <li>Балкон</li>
+        <li>Шашлыки, барбекю</li>
+        <li>Встроенные шкафы</li>
+        <li>Душ</li>
+        <li>Сад</li>
+        <li>Кондиционер</li>
+        <li>Интернет</li>
+        <li>Камин</li>
+        <li>Терраса</li>
+        <li>Ванна</li>
+        <li>Парковка</li>
+        <li>Вид на море</li>
+      </ul>
+    </div>
+  </section>
+  <section class="contact-section container">
+    <h2 class="mb-5 title-section title-section-lines__usefulinfo">Задать вопрос продавцу</h2>
+
+
+    <div class="seller-info">
+      <span>
+        <img class="rounded-circle" src="img/azarov.png" alt="Face">
+      </span>
+      <span>
+        <p>Aleksei Azarov </p>
+      </span>
+      <span class="separator">|</span>
+      <span>
+        <a href="mailto:a@azarovs.ru">a@azarovs.ru</a>
+      </span>
+    </div>
+
+
+    <form class="contact-form" action="">
+      <div class="row">
+        <div class="col-md-5 px-2">
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Имя, Фамилия *" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email *" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" id="tel" placeholder="Телефон *" required>
+          </div>
+        </div>
+        <div class="col-md-7 px-2">
+          <div class="form-group">
+            <textarea class="form-control" rows="" id="comment" placeholder="Сообщение"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-submit">Задать вопрос</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+  </section>
+
+
+  <section class="category-section category-section-subpage">
+    <div class="container">
+      <h2 class="title-section title-section-lines">Категории</h2>
+      <div class="row category-box-area">
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-1.jpg" alt="CatImage">
+              <h4>Элитная, эксклюзивная</h4>
+              <p>Купить элитную недвижимость в Италии - Лазурный берег Франции Элитная недвижимость в Италии и Лазурном...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-2.jpg" alt="CatImage">
+            <h4>Дома, Виллы</h4>
+            <p>Дома и виллы в Италии и на Лазурном Берегу Франции Один из самых красивых регионов Италии –...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-3.jpg" alt="CatImage">
+            <h4>Квартиры, Апартаменты</h4>
+            <p>Квартиры и апартаменты в Италии на Лазурном Берегу Франции Купить квартиру или апартаменты во Франции...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-4.jpg" alt="CatImage">
+            <h4>Готовый бизнес</h4>
+            <p>Продажа бизнеса в Италии Studio «Immobiliare Russo» предлагает Вашему вниманию раздел по...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-5.jpg" alt="CatImage">
+            <h4>Новостройки, новое жилье</h4>
+            <p>Новостройки и новое жилье в Италии и Франции Высокий спрос на недвижимость в популярных курортных...</p>
+          </a>
+        </div>
+        <div class="col-lg-4"> 
+          <a href="#" class="category-box">
+            <img src="img/cat-6.jpg" alt="CatImage">
+            <h4>Земля, участки</h4>
+            <p>Земля и земельный участок в Италии и Франции Лазурный Берег Франции, плавно переходящий в Лигурийское...</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="container-fluid similaradvert-section">
+    <h2 class="mb-5 title-section title-section-lines__usefulinfo">Похожие объявления</h2>
+    <div class="row pt-4">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-1.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-2.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-3.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-1.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="container-fluid searchstory-section">
+    <h2 class="mb-5 title-section title-section-lines__usefulinfo">Ваша история поиска</h2>
+    <div class="row pt-4">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-1.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-2.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-3.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card box-apartment">
+          <a class="card-image" href="#">
+            <span class="new-badge">Новое</span>
+            <img class="card-img-top" src="img/ap-1.jpg" alt="">
+            <h5 class="card-price">€ 650.000</h5>
+          </a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Квартира с садом у моря в Италии</a><br>
+            </h4>
+            <h4 class="lot">
+              Продажа: Лот #3772
+            </h4>
+            <p class="card-text">Квартира у моря в Санремо Продается просторная квартира около 100 м2 в Санремо рядом с пляжами города. Апартаменты в 100 метрах от моря в тихой зоне с садом 80 м2.</p>
+          </div>
+          <div class="card-footer">
+            <div>
+              <span>
+                <img src="img/icon-size.png" alt="">
+              </span>
+              <span>100 m<sup>2</sup></span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bed.png" alt="">
+              </span>
+              <span>4</span>
+            </div>
+            <div>
+              <span>
+                <img src="img/icon-bath.png" alt="">
+              </span>
+              <span>2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark">
+    <div class="container-fluid">
+      <ul class="mx-auto nav nav-pills nav-justified">
+        <li class="nav-item">
+          <a class="nav-link" href="#">У моря</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">В горах</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Продажа</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Аренда</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Компания</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Полезное</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Контакты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Карта сайта</a>
+        </li>
+      </ul>
+      <p class="my-5 text-center text-white">Copyright &copy; 2019 Studio Immobiliare Russo s.r.l. <span class="mx-3 separator">|</span> P. IVA e isc.reg.imprese n: 01600980088 <span class="mx-3 separator">|</span> Cap. Soc. € 10.0000 i.v.</p>
+      <div class="soc-links text-center text-white">
+        <a href="#">
+          <i class="fa fa-facebook-f"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-youtube"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <script>
+    $(document).ready(function(){
+      $('.an-slider-for').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.an-slider-nav'
+      });
+      $('.an-slider-nav').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          asNavFor: '.an-slider-for',
+          centerMode: false,
+          arrows: false,
+          focusOnSelect: true,
+          responsive: [
+              {
+              breakpoint: 900,
+              settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                      }
+              }
+          ]
+      });
+
+      $('[data-fancybox="gallery"]').fancybox({
+          protect: true,
+          transitionEffect: "tube",
+          helpers : { 
+            title : { type : 'inside' }
+          }
+      });
+
+
+    });
+  </script>
+
+</body>
+</html>
